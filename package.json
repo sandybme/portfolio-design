@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass --no-source-map --watch sass:static/style"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/praveen-crypto/portfolio-design.git"
+  },
+  "keywords": [
+    "scss",
+    "bootstrap"
+  ],
+  "author": "Praveen Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/praveen-crypto/portfolio-design/issues"
+  },
+  "homepage": "https://github.com/praveen-crypto/portfolio-design#readme"
+}

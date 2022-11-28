@@ -1,0 +1,108 @@
+
+
+
+//Media Breakpoints
+$xs: 0;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
+$xxl: 1400px;
+
+//Font Sizes
+$fs9 : 5.16rem;
+$fs8 : 4rem;
+$fs7 : 3.583rem;
+$fs6 : 2.986rem;
+$fs5 : 2.488rem;
+$fs4 : 2.074rem;
+$fs3 : 1.728rem;
+$fs2 : 1.44rem;
+$fs1 : 1.2rem;
+$fs0 : 1rem;
+
+
+html, body{
+    box-sizing: border-box;
+}
+
+#greetings{
+
+    margin-top: 1rem;
+
+    h1{
+        text-align: center;
+        font-size: $fs4;
+        font-weight: 600;
+    }
+
+    .greetingsPara{
+        margin-top: 2rem;
+        text-align: center;
+        padding: 0;
+        font-size: $fs0;
+        text-shadow: 1px 1px #dfdfdf;
+    }
+    
+    .greetingsBtn{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .greetingImage{
+        display: block;
+        margin: auto auto;
+        width: 320px;
+        height: 320px;
+    }
+
+}
+
+
+@media only screen and (min-width: $sm) { 
+
+}
+
+
+@media only screen and (min-width: $xl) { 
+
+    nav{
+        font-size: $fs1;
+        font-weight: 600;
+
+        li > a{
+           margin-left: 1rem;
+           margin-right: 1rem;
+        }
+    }
+
+    #greetings{                
+        text-align: left;
+
+        h1{
+            font-size: $fs6;
+        }
+
+        .greetingsBtn{
+            display: block;
+
+            div:first-child{
+                margin-right: 3rem;
+            }
+        }
+    }
+}
+
+
+
+// @include media-breakpoint-up(md) {  }
+// @include media-breakpoint-up(lg) {  }
+// @include media-breakpoint-up(xl) {  }
+// @include media-breakpoint-up(xxl) {  }
+
+
+
+
