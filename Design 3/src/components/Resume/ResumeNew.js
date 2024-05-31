@@ -19,7 +19,7 @@ function ResumeNew() {
   }, []);
 
   return (
-    <div>
+    <div id="resume">
       <Container fluid className="resume-section">
 
         <Particle />
@@ -32,7 +32,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download
           </Button>
         </Row>
 
