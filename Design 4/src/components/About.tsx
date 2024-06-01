@@ -13,7 +13,8 @@ const About: React.FC = () => {
               <h2 className="text-2xl font-semibold text-white mb-6">About Me</h2>
               <div className="space-y-6">
                 <p className="text-gray-200">
-                  As a frontend developer with a keen eye for detail and a passion for creating seamless user experiences, I specialize in crafting pixel-perfect and intuitive user interfaces.
+                  I am a Frontend Developer with a passion for creating seamless user experiences, based out of Chennai, India.
+                  As a frontend developer with a keen eye for detail, I specialize in crafting pixel-perfect and intuitive user interfaces.
                   <br />
                   <br />
                   I translate complex requirements into seamless user experiences, prioritizing quality and usability to exceed client expectations consistently.
