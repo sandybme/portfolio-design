@@ -26,7 +26,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaEnvelope,FaInstagram } from "react-icons/fa";
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -69,8 +69,26 @@ function App() {
                     <AiFillGithub />
                   </a>
                 </li>
-                
-                {/*   */}
+                <li className="social-icons">
+                  <a
+                    href="https://www.instagram.com/balaji.official/"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <FaInstagram />
+                  </a>
+                </li>
+                <li className="social-icons">
+                  <a
+                    href="mailto:bstudies28@gmail.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="icon-colour  home-social-icons"
+                  >
+                    <FaEnvelope />
+                  </a>
+                </li>
                 
               </ul>
             </Col>

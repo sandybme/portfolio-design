@@ -23,7 +23,9 @@ function ResumeNew() {
       <Container fluid className="resume-section">
 
         <Particle />
-
+        <h1 className="project-heading">
+          You can download my <strong className="purple">Resume here! </strong>
+        </h1>
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
@@ -32,7 +34,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download
+            &nbsp;Download Resume
           </Button>
         </Row>
 
@@ -42,7 +44,7 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        {/* 
+{/*         
           <Row style={{ justifyContent: "center", position: "relative" }}>
             <Button
               variant="primary"
