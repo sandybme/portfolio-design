@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           <h1 className="text-4xl md:text-8xl font-bold mb-10 ml-[] ">
             
             <span className='animated-gradient'> Hello </span>
-            <span className='animated-gradient'> <br/> I'm Praveen </span>
+            <span className='animated-gradient'> <br/> I&apos;m Praveen </span>
 
             {/* 👋 */}
           </h1>
