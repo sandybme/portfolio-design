@@ -6,19 +6,17 @@ const About: React.FC = () => {
     <div className='relative '>
       <div className="relative flex items-center justify-center h-screen" id="about">
         <div className="text-white px-6 md:px-12">
-          <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Praveen</h2>
+          <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0">Hi, my name is Sandy</h2>
 
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <div className="bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">
               <h2 className="text-2xl font-semibold text-white mb-6">About Me</h2>
               <div className="space-y-6">
-                <p className="text-gray-200">
-                  I am a Frontend Developer with a passion for creating seamless user experiences, based out of Chennai, India.
-                  As a frontend developer with a keen eye for detail, I specialize in crafting pixel-perfect and intuitive user interfaces.
-                  <br />
-                  <br />
-                  I translate complex requirements into seamless user experiences, prioritizing quality and usability to exceed client expectations consistently.
-                </p>
+              <p className="text-gray-200">
+                I am passionate about AI Engineering and Research, with a background in biomedical imaging, computer vision, machine learning, and generative AI. Based in Munich, Germany, I thrive on creating innovative solutions to complex problems.
+                <br /><br />
+                My work spans various domains where I leverage cutting-edge technology to drive progress. I am always eager to learn new things and continuously expand my skill set. Explore my portfolio to see my latest projects and research endeavors.
+              </p>
                 
                 <h3 className="text-xl font-semibold text-white">My Digital Arsenal</h3>
                 <div className="flex justify-between items-end ">
