@@ -10,7 +10,8 @@ const About: React.FC = () => {
 
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <div className="bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">
-              <h2 className="text-2xl font-semibold text-gradient mb-6">About Me</h2>
+              <h3 className="text-lg font-semibold text-gradient">About Me</h3>
+              {/* <h2 className="text-2xl font-semibold text-white mb-6"></h2> */}
               <div className="space-y-6">
                 <p className="text-gray-200">
                   I am passionate about AI Engineering and Research, with a background in biomedical imaging, computer vision, machine learning, and generative AI. Based in Munich, Germany, I thrive on creating innovative solutions to complex problems.
@@ -18,7 +19,7 @@ const About: React.FC = () => {
                   My work spans various domains where I leverage cutting-edge technology to drive progress. I am always eager to learn new things and continuously expand my skill set. Explore my portfolio to see my latest projects and research endeavors.
                 </p>
 
-                <h3 className="text-xl font-semibold text-gradient">My Digital Arsenal</h3>
+                <h3 className="text-lg font-semibold text-gradient">My Digital Arsenal</h3>
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
                   <div>
                     <h4 className="text-lg font-semibold text-gradient">Programming Languages</h4>
