@@ -18,7 +18,7 @@ function GradientComponent() {
     </svg>
   );
 }
-const greetings = ["Hello", "Hallo", "Bonjour", "வணக்கம்","Γειά σου"]; // English, German, French, Tamil
+const greetings = ["வணக்கம்","Hello", "Hallo", "Bonjour","Γειά σου"]; // English, German, French, Tamil
 
 const quotes = [
   "Making Computers Think & Reason, So You Don't Have To.",
