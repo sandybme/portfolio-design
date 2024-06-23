@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 
 
 export const metadata: Metadata = {
-  title: 'Praveen - Portfolio',
+  title: 'Sandhanakrishnan Ravichandran- Portfolio',
 }
 
 export default function RootLayout({

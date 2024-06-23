@@ -6,6 +6,7 @@ import ContactCard from '@/components/ContactCard'
 import HireMeCard from '@/components/HireMe'
 import Footer from '@/components/Footer'
 import Navbar from '@/components/NavBar'
+import Awards from '@/components/Awards'; 
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <VerticalTimeline/>
-      <PreviousWork/>
+      <Awards/>
       <ContactCard/>
       {/* <HireMeCard/> */}
       <Footer/>

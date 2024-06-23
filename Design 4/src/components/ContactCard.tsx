@@ -12,7 +12,7 @@ const ContactCard: React.FC = () => {
                     <h2 className="text-2xl font-bold mb-2">Sandhanakrishnan Ravichandran</h2>
                     <p className="text-sm mb-4">AI Engineer | Researcher | Software Developer |</p>
                     <button className="bg-inherit border text-purple-200 px-4 py-2 rounded shadow hover:bg-gray-100 hover:text-black transition-colors duration-200">
-                        <Link href='https://drive.google.com/file/d/1AISxsxSmJtkC1M9Nemrjf7oNVOQcySKJ/view?usp=sharing' target='_blank'>
+                        <Link href='https://drive.google.com/file/d/1BqUaFVUGCzrrskflvcJ8LLzUkxjImwDr/view?usp=sharing' target='_blank'>
                             Resume
                         </Link>
                     </button>

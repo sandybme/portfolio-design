@@ -10,31 +10,67 @@ const About: React.FC = () => {
 
           <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
             <div className="bg-transparent rounded-lg shadow-lg px-5 py-6 sm:px-6 my-10 w-full max-w-3xl mx-auto border blur-background2 mt-0">
-              <h2 className="text-2xl font-semibold text-white mb-6">About Me</h2>
+              <h2 className="text-2xl font-semibold text-gradient mb-6">About Me</h2>
               <div className="space-y-6">
-              <p className="text-gray-200">
-                I am passionate about AI Engineering and Research, with a background in biomedical imaging, computer vision, machine learning, and generative AI. Based in Munich, Germany, I thrive on creating innovative solutions to complex problems.
-                <br /><br />
-                My work spans various domains where I leverage cutting-edge technology to drive progress. I am always eager to learn new things and continuously expand my skill set. Explore my portfolio to see my latest projects and research endeavors.
-              </p>
-                
-                <h3 className="text-xl font-semibold text-white">My Digital Arsenal</h3>
-                <div className="flex justify-between items-end ">
-                  <ul className="list-disc pl-5 text-gray-400">
-                    <li>HTML & CSS</li>
-                    <li>JavaScript</li>
-                    <li>TypeScript</li>
-                    <li>Python</li>
-                    <li>.Net</li>
-                    <li>React</li>
-                    <li>NextJs</li>
-                    <li>FastAPI</li>
-                    <li>Sass</li>
-                    <li>Tailwind CSS</li>
-                    <li>Bootstrap</li>
-                  </ul>
+                <p className="text-gray-200">
+                  I am passionate about AI Engineering and Research, with a background in biomedical imaging, computer vision, machine learning, and generative AI. Based in Munich, Germany, I thrive on creating innovative solutions to complex problems.
+                  <br /><br />
+                  My work spans various domains where I leverage cutting-edge technology to drive progress. I am always eager to learn new things and continuously expand my skill set. Explore my portfolio to see my latest projects and research endeavors.
+                </p>
+
+                <h3 className="text-xl font-semibold text-gradient">My Digital Arsenal</h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+                  <div>
+                    <h4 className="text-lg font-semibold text-gradient">Programming Languages</h4>
+                    <ul className="list-disc pl-5 text-gray-400">
+                      <li>Python</li>
+                      <li>C</li>
+                      <li>Matlab</li>
+                      <li>JavaScript</li>
+                      <li>C++</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gradient">Libraries & Frameworks</h4>
+                    <ul className="list-disc pl-5 text-gray-400">
+                      <li>PyTorch</li>
+                      <li>Machine learning libraries</li>
+                      <li>Plotting libraries</li>
+                      <li>Langchain, llama-index</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gradient">Specializations</h4>
+                    <ul className="list-disc pl-5 text-gray-400">
+                      <li>ML - Computer Vision, Deep learning, Generative AI</li>
+                      <li>LLMs</li>
+                      <li>Medical imaging</li>
+                      <li>Classical Algorithms Development</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gradient">Tools & Technologies</h4>
+                    <ul className="list-disc pl-5 text-gray-400">
+                      <li>Docker</li>
+                      <li>Git</li>
+                      <li>CI/CD</li>
+                      <li>AWS</li>
+                      <li>Linux - bash</li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-semibold text-gradient">Others</h4>
+                    <ul className="list-disc pl-5 text-gray-400">
+                      <li>Data Analysis</li>
+                      <li>Data Engineering</li>
+                      <li>Android Studio (Java)</li>
+                      <li>Blender 3D</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="mt-6">
                   <button className="bg-transparent border hover:bg-white hover:text-black font-bold py-2 px-4 rounded hover:border-none">
-                    <Link href='https://drive.google.com/file/d/1AISxsxSmJtkC1M9Nemrjf7oNVOQcySKJ/view?usp=sharing' target='_blank'>
+                    <Link href='https://drive.google.com/file/d/1BqUaFVUGCzrrskflvcJ8LLzUkxjImwDr/view?usp=sharing' target='_blank'>
                       Resume
                     </Link>
                   </button>
@@ -44,17 +80,6 @@ const About: React.FC = () => {
           </div>
         </div>
       </div>
-
-      {/* <svg className="absolute left-[0px] top-[0px] z-[-1]" viewBox="0 0 800 800">
-        <defs>
-          <filter id="bbblurry-filter" x="-100%" y="-100%" width="400%" height="400%" filterUnits="objectBoundingBox" primitiveUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
-            <feGaussianBlur stdDeviation="73" x="0%" y="0%" width="100%" height="100%" in="SourceGraphic" edgeMode="none" result="blur"></feGaussianBlur>
-          </filter>
-        </defs>
-        <g filter="url(#bbblurry-filter)">
-          <ellipse rx="127.5" ry="184.5" cx="58.48854527148316" cy="363.1451261127883" fill="hsla(286, 59%, 10%, 1.00)"></ellipse>
-        </g>
-      </svg> */}
     </div>
   );
 };

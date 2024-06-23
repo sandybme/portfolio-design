@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Home' elementId='hero'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='About' elementId='about'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Work Experience' elementId='work'/>
-          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Projects' elementId='projects'/>
+          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Awards' elementId='awards'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Contact' elementId='contact'/>
         </div>
 
@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Home' elementId='hero'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='About' elementId='about'/>
           
-          <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Previous Work' elementId='previouswork'/>
+          <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Previous Work' elementId='award'/>
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Contact' elementId='contact'/>
         </div>
         <div className="flex items-center mt-20 mr-4">
