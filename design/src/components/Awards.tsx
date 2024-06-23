@@ -4,7 +4,7 @@ const awards = [
   {
     title: 'Open AI Research Grant 2024',
     description: 'Received a credit grant of $5000 for my submitted proposal in OpenAI Research Program.',
-    imageUrl: 'OpenAI_logo.png',
+    imageUrl: 'openai.png',
     caseStudyUrl: '#',
   },
   {
