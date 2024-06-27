@@ -1,6 +1,7 @@
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import VerticalTimeline  from '@/components/Timeline'
+import Education from '@/components/Education'
 import PreviousWork from '@/components/PreviousWork'
 import ContactCard from '@/components/ContactCard'
 import HireMeCard from '@/components/HireMe'
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero/>
       <About/>
       <VerticalTimeline/>
+      <Education/>
       <Awards/>
       <ContactCard/>
       {/* <HireMeCard/> */}

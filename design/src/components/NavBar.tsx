@@ -37,6 +37,7 @@ const Navbar: React.FC = () => {
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Home' elementId='hero'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='About' elementId='about'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Work Experience' elementId='work'/>
+          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Education' elementId='education'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Awards' elementId='awards'/>
           <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='Contact' elementId='contact'/>
         </div>
