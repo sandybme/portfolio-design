@@ -70,15 +70,13 @@ const Navbar: React.FC = () => {
       <div className={`md:hidden ${mobileMenuOpen ? 'flex' : 'hidden'} justify-between mt-4 mb-6 ml-5`}>
         <div className="flex flex-col space-y-4">
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Home' elementId='hero'/>
-          <ButtonLink className="text-lg font-medium text-gray-800 text-white hover:text-gray-300" buttonText='About' elementId='about'/>
+          <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='About' elementId='about'/>
           
-          <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Previous Work' elementId='award'/>
+          <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Experience' elementId='work'/>
+          <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Awards' elementId='awards'/>
           <ButtonLink className="text-left text-lg font-medium text-gray-800 text-white hover:text-gray-200 hover:text-gray-400" buttonText='Contact' elementId='contact'/>
         </div>
         <div className="flex items-center mt-20 mr-4">
-          <Link href="https://github.com/sandybme" target='_blank'>
-            <img src="/github-mark-white.svg" alt="" className='GitHub' />
-          </Link>
           {/* <Link href="https://discord.gg/wDdeQ2bEbG" target='_blank' className="ml-4">
             <FaDiscord size={36}/>
           </Link> */}
