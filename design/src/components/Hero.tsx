@@ -60,7 +60,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <div id='hero' className="relative h-screen flex items-center justify-center hdr">
+    <div id='hero' className="relative h-screen flex items-center justify-center hdr ">
       <GradientComponent />
 
       <div className="text-center text-white px-6 md:px-12">

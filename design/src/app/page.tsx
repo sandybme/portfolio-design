@@ -15,11 +15,18 @@ export default function Home() {
       <Navbar/>
       <Hero/>
       <About/>
+      
       <VerticalTimeline/>
+       
+      
       <Education/>
       <Awards/>
-      <ContactCard/>
+      <ContactCard/> 
+      {/* 
+      */}
+
       {/* <HireMeCard/> */}
+      
       <Footer/>
     </>
   )

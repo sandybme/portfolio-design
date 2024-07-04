@@ -104,7 +104,7 @@ const TimelineItem: React.FC<TimelineItemProps> = ({ experience, side }) => {
 
 const VerticalTimeline: React.FC = () => {
   return (
-    <div className="h-auto text-white py-16 bg-transparent" id="work">
+    <div className="h-auto text-white py-16 bg-transparent mt-[22rem] sm:mt-0" id="work">
       <h2 className="text-3xl font-bold mb-16 text-center">Work Experience</h2>
       <div className="container mx-auto px-6">
         <div className="relative w-full">

@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const About: React.FC = () => {
   return (
-    <div className='relative '>
+    <div className='relative mt-[22rem] sm:mt-0'>
       <div className="relative flex items-center justify-center h-screen" id="about">
         <div className="text-white px-6 md:px-12">
           <h2 className="text-center text-xl md:text-3xl font-bold mb-20 mt-0"></h2>
@@ -13,6 +13,7 @@ const About: React.FC = () => {
               <h3 className="text-lg font-semibold text-gradient">About Me</h3>
               {/* <h2 className="text-2xl font-semibold text-white mb-6"></h2> */}
               <div className="space-y-6">
+
                 <p className="text-gray-200">
                   I am passionate about AI Engineering and Research, with a background in biomedical imaging, computer vision, machine learning, and generative AI. Based in Munich, Germany, I thrive on creating innovative solutions to complex problems.
                   <br /><br />
